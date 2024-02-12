@@ -5,6 +5,7 @@ class Solution {
             c = c + nums[i];
             nums[i]=c;
         }
+        System.gc();
         return nums;
     }
 }
